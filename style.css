@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+  }
+  
+  .hero__section{
+    background: url(images/bk.jpg);
+    opacity: 0.8;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    min-height: 75vh;
+     }
+  
+  .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 140px;
+    padding: 16px 48px;
+  }
+  
+  .navbar a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .hero__section_input_container link{
+    margin-top: 20px;
+  }
+
+  .hero__section_input_container input{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    gap:10px;
+    width: 100%;
+    flex-direction: row;
+    border-radius: 10px;
+  }
+
+  .input_container_search{
+    padding: 5px;
+    border: none;
+    outline: none;
+    margin-top: 50px;
+  }
+ 
+  @media only screen and (max-width:600px){
+    .navbar__menu_container .user__icon{
+      display: flex;
+    }
+  
+    .link{
+      display: none;
+    }
+  
+    .navbar{
+      padding: 16px;
+    }
+  
+    .hero__section{
+      min-height: 100vh;
+    }
+  .hero__section_input_container{
+    flex-direction: column;
+    background-color: transparent;
+    width: 100%;
+  }
+  
+  .input_container_location,
+  .input_container_search{
+    padding:15px;
+    border-radius: 10px;
+    width:95%;
+  }
+  
+  .hero__section_container{
+    height: calc(100vh -60px);
+  }
+  .hero__section_title{
+    font-size: 20px;
+    width:85%;
+  }
+  }
+
+  .btn{
+    margin-top: 10px;
+  }
+
+  .hero__section_input_container .link{
+    margin-right: 20px;
+  }
+.hero__section_content h1{
+  margin-top: 120px;
+  color: white;
+}
+
+.hero__section_content p{
+  margin-top: 10px;
+  color: white;
+  font-size: 25px;
+}
+
+.cont{
+  background-color: white;
+  color:black;
+  height: 120px;
+
+text-align: center;
+margin: 15px auto;
+}
+
+div .col{
+  text-align: center;
+}
+
+
+#r{
+  margin: 100px 70px 30px auto;
+}
+
+
+  .card:hover{
+    transform: scale(1.05);
+    }
+
+    .disclaimer{
+      width: 90%;
+      margin: auto;
+      color: grey;
+      font-size: 13px;
+      border-top: 1px solid grey;
+      padding-top: 1.5rem;
+    }
+    @media only screen and (max-width:900px){
+      .card__section_1{
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+    }
+    
+    @media only screen and (max-width:600px){
+      .card__section_1{
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    
+    @media only screen and (max-width:450px){
+      .card__section_1{
+        grid-template-columns: 1fr;
+      }
+    }
+
+
+  
